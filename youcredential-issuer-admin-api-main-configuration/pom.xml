@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youcredential.issuer</groupId>
   <artifactId>youcredential-issuer-admin-api-main-configuration</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0T</version>
   <name>linkwallet-extention-issuer-admin-api-configuration</name>
   <description>linkwallet-extention-issuer-admin-api-configuration</description>
   

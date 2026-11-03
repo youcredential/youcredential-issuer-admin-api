@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youcredential.issuer</groupId>
   <artifactId>youcredential-issuer-admin-api-credential-definition</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>linkwallet-extention-credential-definition-api</name>
   <description>linkwallet-extention-credential-definition-api</description>
   
@@ -23,7 +23,7 @@
       <dependency>
         <groupId>org.youcredential.issuer</groupId>
         <artifactId>youcredential-issuer-admin-api-main-configuration</artifactId> 
-        <version>0.0.3-SNAPSHOT</version> 
+        <version>0.0.3.0</version> 
       </dependency>   
 <!--    implementation(libs.edc.spi.auth)
 edc-spi-auth = { module = "org.eclipse.edc:auth-spi", version.ref = "edc" }-->

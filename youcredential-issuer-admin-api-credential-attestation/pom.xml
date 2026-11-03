@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youcredential.issuer</groupId>
   <artifactId>youcredential-issuer-admin-api-credential-attestation</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>linkwallet-extention-attestation-api</name>
   <description>linkwallet-extention-attestation-api</description>
   
@@ -24,7 +24,7 @@
       <dependency>
         <groupId>org.youcredential.issuer</groupId>
         <artifactId>youcredential-issuer-admin-api-main-configuration</artifactId> 
-        <version>0.0.3-SNAPSHOT</version> 
+        <version>0.0.3.0</version> 
       </dependency>   
 <!--    implementation(libs.edc.spi.web)
     edc-spi-web = { module = "org.eclipse.edc:web-spi", version.ref = "edc" }-->
