@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youcredential.issuer</groupId>
+  <artifactId>youcredential-issuer-admin-api-credential-status</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <name>linkwallet-extention-credentials-api</name>
+  <description>linkwallet-extention-credentials-api</description>
+ 
+  <dependencies>
+<!--    api(libs.edc.spi.core)
+    edc-spi-core = { module = "org.eclipse.edc:core-spi", version.ref = "edc" }-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>core-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency> 
+<!--    api(project(":spi:issuerservice:issuerservice-credential-spi"))-->
+       <dependency>
+        <groupId>com.linkwallet.issuer</groupId>
+        <artifactId>linkwallet-issuer-credential-spi-status</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    
+<!--    api(project(":spi:issuerservice:issuerservice-holder-spi"))-->
+      <dependency>
+        <groupId>com.linkwallet.issuer</groupId>
+        <artifactId>linkwallet-issuer-holder-spi</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>     
+<!--    implementation(project(":extensions:api:issuer-admin-api:issuer-admin-api-configuration"))-->
+      <dependency>
+        <groupId>org.youcredential.issuer</groupId>
+        <artifactId>youcredential-issuer-admin-api-main-configuration</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>     
+<!--    implementation(project(":protocols:dcp:dcp-transform-lib"))-->
+      <dependency>
+        <groupId>com.linkwallet.dcp</groupId>
+        <artifactId>linkwallet-dcp-core-lib-transform</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>     
+<!--    implementation(libs.edc.spi.web)
+    edc-spi-web = { module = "org.eclipse.edc:web-spi", version.ref = "edc" }-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>web-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>     
+<!--    implementation(libs.jakarta.rsApi)
+    jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsApi" }-->
+      <dependency>
+        <groupId>jakarta.ws.rs</groupId>
+        <artifactId>jakarta.ws.rs-api</artifactId>
+        <version>4.0.0</version>
+      </dependency> 
+
+<!--    testImplementation(libs.edc.junit)
+    edc-junit = { module = "org.eclipse.edc:junit", version.ref = "edc" }-->
+       <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+<!--    testImplementation(testFixtures(libs.edc.core.jersey))
+    dc-core-jersey = { module = "org.eclipse.edc:jersey-core", version.ref = "edc" }-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>jersey-core</artifactId>
+        <version>0.18.0</version>
+      </dependency>     
+<!--    testImplementation(libs.restAssured)  
+    restAssured = { module = "io.rest-assured:rest-assured", version.ref = "restAssured" }-->
+      <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.5.6</version>
+      </dependency>     
+   </dependencies>       
+</project>
