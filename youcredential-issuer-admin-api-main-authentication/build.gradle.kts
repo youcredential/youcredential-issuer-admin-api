@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Metaform Systems, Inc. - initial API and implementation
- *
+ * \extensions\api\issuer-admin-api\issuer-admin-api-authentication
  */
 
 plugins {
