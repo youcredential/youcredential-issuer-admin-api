@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Cofinity-X - initial API and implementation
- *
+ * \extensions\api\issuer-admin-api\issuer-admin-api-configuration
  */
 
 plugins {

@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youcredential.issuer</groupId>
+  <artifactId>youcredential-issuer-admin-api-main-configuration</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <name>linkwallet-extention-issuer-admin-api-configuration</name>
+  <description>linkwallet-extention-issuer-admin-api-configuration</description>
+  
+  <dependencies>
+<!--    api(project(":spi:identity-hub-spi"))-->
+      <dependency>
+        <groupId>com.linkwallet.core</groupId>
+        <artifactId>linkwallet-core-spi</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>   
+<!--    implementation(libs.edc.spi.core)
+    edc-spi-core = { module = "org.eclipse.edc:core-spi", version.ref = "edc" }-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>core-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>     
+<!--    implementation(libs.edc.spi.web)
+    edc-spi-web = { module = "org.eclipse.edc:web-spi", version.ref = "edc" }-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>web-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>     
+<!--    implementation(libs.jakarta.rsApi)
+jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsApi" }-->
+      <dependency>
+        <groupId>jakarta.ws.rs</groupId>
+        <artifactId>jakarta.ws.rs-api</artifactId>
+        <version>4.0.0</version>
+      </dependency>   
+<!--edc-spi-auth = { module = "org.eclipse.edc:auth-spi", version.ref = "edc" }-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>auth-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+      
+<!--    testImplementation(libs.edc.junit)  -->
+
+  </dependencies>  
+</project>
